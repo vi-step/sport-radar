@@ -30,3 +30,6 @@ reset:
 
 create-db-schema:
 	docker-compose exec php php run.php create-db-schema $(filter-out $@,$(MAKECMDGOALS))
+
+test:
+	docker-compose exec php ./vendor/bin/phpunit tests
