@@ -3,11 +3,11 @@
 ## Pre-requirements
 - Docker
 - git
+- make
 
-git clone git@github.com:vi-step/sport-radar.git
-cd sport-radar
-cp .env.example .env
-make
+```bash
+git clone git@github.com:vi-step/sport-radar.git && cd sport-radar && cp .env.example .env && make
+```
 
 # Usage
 
